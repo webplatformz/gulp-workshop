@@ -1,0 +1,14 @@
+{
+  "name": "gulp-workshop",
+  "version": "1.0.0",
+  "description": "workshop example app for gulp",
+  "repository": {
+    "type": "git",
+    "url": "https://joachimprinzbach@github.com/webplatformz/gulp-workshop.git"
+  },
+  "author": "joachimprinzbach",
+  "homepage": "https://github.com/webplatformz/gulp-workshop",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
