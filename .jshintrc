@@ -81,7 +81,7 @@
     "worker"        : false,    // Web Workers
     "wsh"           : false,    // Windows Scripting Host
     "yui"           : false,    // Yahoo User Interface
-
+    "predef": ["angular", "expect"],
     // Custom Globals
     "globals"       : {
       "Promise": false
