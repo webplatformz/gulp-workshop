@@ -10,5 +10,11 @@
   "homepage": "https://github.com/webplatformz/gulp-workshop",
   "dependencies": {
     "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "jasmine": "^2.2.1",
+    "jasmine-node": "^1.14.5",
+    "mocha": "^2.2.1"
   }
 }
