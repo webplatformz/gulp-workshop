@@ -1,3 +1,6 @@
+Generell praktisch:
+- gulp-load-plugins
+
 Start node server and livereload / restart
 - gulp-nodemon
 - gulp-livereload
