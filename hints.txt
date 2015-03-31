@@ -1,0 +1,20 @@
+Start node server and livereload / restart
+- gulp-nodemon
+- gulp-livereload
+
+Execute tests
+- gulp-mocha
+- gulp-jasmine
+
+Execute tests, jshint on js file changes
+- gulp-jshint
+- gulp-watch
+
+create production build: minify, uglify js and css files. copy to own directory (/dist)
+- gulp-minify-css
+- gulp-uglifycss
+- gulp-concat
+- gulp-uglify
+
+clean production directory before building. File Structure: dist/index.html, dist/
+- gulp-clean
