@@ -1,0 +1,27 @@
+<html lang="en" ng-app="myApp" class="no-js">
+
+<head>
+    <link rel="stylesheet" href="css/style.min.css"/>
+</head>
+
+<body>
+    <div class="container">
+    <div  ng-controller="myCtrl" class="jumbotron">
+        <h1 class="awesome-font">Gulp asdfockt</h1>
+
+        <p><textarea class="form-control" ng-model="message" cols="40" rows="10"></textarea></p>
+
+        <p>
+            <button class="action-button shadow animate blue" ng-click="clear()">Clear</button>
+        </p>
+
+        <p>Number of characters left: <span ng-bind="left()"></span></p>
+        <p><input type="checkbox" class="awesome-cb"></p>
+
+    </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
